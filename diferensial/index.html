@@ -13,14 +13,14 @@
         <meta name="author" content="peaceiris">
       
       
-        <link rel="canonical" href="https://mkdocs.peaceiris.com/license/">
+        <link rel="canonical" href="https://mkdocs.peaceiris.com/diferensial/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.5">
     
     
       
-        <title>License - MkDocs Material Boilerplate</title>
+        <title>Solusi Numerik Persamaan Deferensial Biasa - MkDocs Material Boilerplate</title>
       
     
     
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#license" class="md-skip">
+        <a href="#persamaan_diferensial_biasa" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              License
+              Solusi Numerik Persamaan Deferensial Biasa
             
           </span>
         </div>
@@ -252,11 +252,58 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../diferensial/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Solusi Numerik Persamaan Deferensial Biasa
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Solusi Numerik Persamaan Deferensial Biasa
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metode_euler" class="md-nav__link">
+    Metode Euler
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code_program_metode_euler" class="md-nav__link">
+    Code Program Metode Euler
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -528,51 +575,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          License
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../license/" class="md-nav__link">
         License
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#support_author" class="md-nav__link">
-    Support Author
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -603,8 +610,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#support_author" class="md-nav__link">
-    Support Author
+  <a href="#metode_euler" class="md-nav__link">
+    Metode Euler
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code_program_metode_euler" class="md-nav__link">
+    Code Program Metode Euler
   </a>
   
 </li>
@@ -621,20 +635,69 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/peaceiris/mkdocs-material-boilerplate/edit/master/docs_sample/license.md" title="Edit this page" class="md-content__button md-icon">
+                  <a href="https://github.com/peaceiris/mkdocs-material-boilerplate/edit/master/docs_sample/diferensial.md" title="Edit this page" class="md-content__button md-icon">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
                   </a>
                 
                 
-                <h1 id="license">License<a class="headerlink" href="#license" title="Permanent link">&para;</a></h1>
+                <h1 id="persamaan_diferensial_biasa">Persamaan Diferensial Biasa<a class="headerlink" href="#persamaan_diferensial_biasa" title="Permanent link">&para;</a></h1>
+<p>Persamaan difererensial biasa merupakan sebuah persamaan diferensial di mana fungsi yang tidak diketahui (variabel terikat) adalah fungsi dari variabel bebas tunggal<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>. contohnya Model dari terjun payung
+<script type="math/tex; mode=display">
+\dfrac{dv}{dt}=9.8-\dfrac{c}{M}v
+</script>
+Dimana:</p>
+<p>M : massa</p>
+<p>c : koefisien penahan</p>
+<p>v : kecepatan</p>
+<p>v merupakan variabel tak bebas (fungsi yang tidak diketahui) sedangkan t merupakan variabel bebas (variabel lain yang akan diturunkan)<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></p>
+<h4 id="metode_euler">Metode Euler<a class="headerlink" href="#metode_euler" title="Permanent link">&para;</a></h4>
+<p>metode euler merupakan Metode deret Taylor yang memiliki jumlah orde satu. metode euler memiliki rumus yaitu:
+<script type="math/tex; mode=display">
+y_{i+1}=y_{i}+f\left( x_{i},y_{i}\right) h
+</script>
+Dimana:</p>
+<p>h : (xi + 1) - xi</p>
+<p>i : jumlah iterasi\</p>
+<p><strong>Algoritma Metode Euler</strong></p>
 <ul>
-<li><a href="https://github.com/peaceiris/mkdocs-material-boilerplate/blob/master/LICENSE">MIT License</a></li>
-<li><a href="https://www.flaticon.com/free-icon/graduate-cap_62627">The graduate cap icon</a> made by <a href="https://www.freepik.com/">Freepik</a> from <a href="https://www.flaticon.com/">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/">CC 3.0 BY</a></li>
+<li>Menentukan titik awal dari integrasi x0 dan y0</li>
+<li>menentukan jarak antara xi + 1 dengan xi (h)</li>
+<li>menentukan jumlah itersi (n)</li>
+<li>melakukan integrasi sesuai rumus</li>
 </ul>
-<h2 id="support_author">Support Author<a class="headerlink" href="#support_author" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="http://amzn.asia/ilWK0Yj">Amazon wish list</a></li>
-</ul>
+<h4 id="code_program_metode_euler">Code Program Metode Euler<a class="headerlink" href="#code_program_metode_euler" title="Permanent link">&para;</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">):</span>
+    <span class="k">return</span> <span class="mi">1</span> <span class="o">+</span> <span class="n">x</span><span class="o">**</span><span class="mi">2</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">y</span> <span class="o">=</span> <span class="p">[]</span>
+
+<span class="n">x</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">y</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="o">-</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">h</span> <span class="o">=</span> <span class="mf">0.01</span>
+<span class="n">n</span> <span class="o">=</span> <span class="mi">10</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span> <span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="n">y</span><span class="o">.</span><span class="n">append</span> <span class="p">(</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">+</span><span class="n">h</span><span class="o">*</span><span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
+    <span class="n">x</span><span class="o">.</span><span class="n">append</span> <span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="n">h</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;i&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;h&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;ti&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;yi&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\t\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;f(xi, yi)&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;yi+1&#39;</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">i</span> <span class="p">,</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="n">h</span> <span class="p">,</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">%.2f</span><span class="s2">&quot;</span> <span class="o">%</span>  <span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">%.4f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span> <span class="p">,</span> <span class="s2">&quot;</span><span class="si">%.4f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">f</span><span class="p">(</span><span class="n">x</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">y</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span> <span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="si">%.4f</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">y</span><span class="p">[</span><span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">])</span>
+</code></pre></div>
+
+<p>Referensi</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>id.wikipedia.org. (7 Juni 2019). Persamaan diferensial biasa. Diakses pada 14 Juli 2021, dari https://id.wikipedia.org/wiki/Persamaan_diferensial_biasa&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p>Mula'ab (2021). Persamaan+Deferensial+biasa [Power Point slides]&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
                 
               
               
@@ -653,7 +716,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../extensions/footnote/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../linear/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -662,11 +725,25 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Footnote
+              Solusi Numerik Sistem Persamaan Linier
             </div>
           </div>
         </a>
       
+      
+        <a href="../material-for-mkdocs/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Material for MkDocs
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
       
     </nav>
   
